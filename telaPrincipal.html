@@ -4,16 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="telaPrincipal.css">
 </head>
 <body>
-    <h1>Produtos</h1>
+    <header class="Topo">
+        <h3>Mundo da Lua, Serviços Digitais</h3>
 
-    <div>
+        <nav class="cabecalho">
+            <button id="button">Menu</button>
+            <script>
+                document.querySelector("#button").addEventListener("click", function(){
+                    window.location.href="telaPrincipal.html"
+                })
+            </script>
+
+            <button id="button">Carrinho</button>
+                <script>
+                    document.querySelector("#button").addEventListener("click", function(){
+                        window.location.href=".html"
+                    })
+                </script>
+
+            <button id="button">Login</button>
+                <script>
+                    document.querySelector("#button").addEventListener("click", function(){
+                        window.location.href="login.html"
+                    })
+                </script>
+
+            <input name="q" placeholder="Pesquise aqui">
+
+        </nav>
+
+    </header>
+
+    <main class="escopo">
+        <h3>Categorias</h3>
+
+        <figure>
+            <img src="imagens/topo de bolo.webp" width="125" height="125">
+            <p>Topos para bolo</p>
+        </figure>
         
-    </div>
+        <figure>
+            <img src="imagens/topo de bolo.webp" width="125" height="125">
+            <p>Calendários personalizados</p>
+        </figure>        
+
+    </main>
+
+    <footer class="ultimo">
+        <h3>Atendimento</h3>
+        <h4><a href="https://wa.me/5527988119998">contato</a></h4>
 
 
-
-
+        <h3>Sobre a empresa</h3>
+        <h4><a href="">Empresa</a></h4>
+    
+    
+    
+    </footer>
 </body>
 </html>
