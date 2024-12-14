@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login - Mundo da Lua</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <header>
-        <h1>Mundo da Lua, Serviços digitais</h1>
-    </header>
+    <div class="login-container">
+            <h1>Login</h1>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
-    <nav>
-        <h1>Login</h1>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
 
-    <div class="login">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <button id="Entrar">Entrar</button>
+                <button type="button" id="Entrar">Entrar</button>
+            </form>
+            <p><a href = "recuperarSenha.html">Esqueci minha senha</a></p> 
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>
+            <a href="#">Política de Privacidade</a>
+        </div>
+        <p>&copy; 2024 Mundo da Lua, Serviços Digitais. Todos os direitos resevados.</p>
+    </footer>
+
         <script>
             document.querySelector("#Entrar").addEventListener("click", function(){
                 window.location.href="telaPrincipal.html"
-            })
+            });
         </script>
-    </div>
 
-    </nav>
-    
-    <footer>
-        
-    </footer>
-    
+
 </body>
 </html>

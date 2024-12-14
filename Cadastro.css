@@ -1,23 +1,117 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #93C8EC;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100hv;
 }
 
 h1{
     color: #320057;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 37px;
+    margin-bottom: 20px;
 }
 
-fieldset{
+.form-container{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 50px 40px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
     color: #320057;
-    text-align:center;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 16px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #320057;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    
+}
+
+input:focus{
+    border-color: #93C8EC;
+    outline: none;
+}
+
+.input-group{
+    display: flex;
+    gap: 10px;
 }
 
 button{
-    color: #320057;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background-color: #320057;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover{
+    background-color: #5E0075;
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px){
+    .form-container {
+        padding: 25px;
+    }
+
+    .button{
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+footer{
+    background-color: #320057;
+    color: #FFFFFF;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-links{
+    margin-bottom: 10px;
+}
+
+.footer-links a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover{
+    color: #5E0075;
+}
+
+footer p{
+    font-size: 12px;
 }

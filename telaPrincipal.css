@@ -1,31 +1,144 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #93C8EC;
+    color: #333
 }
 
-.titulo{
-    background-color: #BFFF00;
-    border-radius: 5px;
-    padding: 1em;
-
-}
-
-.rodape{
-    background-color: #ffff;
-    border-radius: 5px;
-    padding: 0.5em;
-}
-
-h1{
-    color: #320057;
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px
-
-}
-
-h2{
-    color: #320057;
+.topo{
+    background-color: #320057;
+    color: #FFFFFF;
+    padding: 15px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cabecalho ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho ul li{
+    display: inline;
+}
+
+.cabecalho ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.cabecalho input{
+    padding: 8px;
+    border: 1px solid #93C8EC;
+    border-radius: 5px;
+}
+
+.carrossel{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.slider{
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px
+}
+
+.slide{
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    width: 300px;
+    background-color:  #93C8EC;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: #320057;
+    font-weight: bold;
+}
+
+.slide1{
+    background-image: url('imagens/promocao1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide2{
+    background-image: url('imagens/promocao2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.side3{
+    background-image: url('imagens/promocao3.webp');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.destaques{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.produto{
+    display:inline-block;
+    margin: 15px;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    background-color: #93C8EC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 10px;
+}
+
+.produto1{
+    background-image: url('imagens/topo-de-bolo.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.produto2{
+    background-image: url('imagens/calendario.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.produto3{
+    background-image: url('imagens/caneca.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.ultimo{
+    background-color: #320057;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.ultimo a{
+    color: #93C8EC;
+    text-decoration: none;
+}
+
+.ultimo a:hover{
+    text-decoration: underline;
+}
+
+.redes-sociais a{
+    margin: 0 5px;
+    color: #93C8EC
 }
