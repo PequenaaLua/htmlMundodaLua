@@ -7,62 +7,68 @@
     <link rel="stylesheet" href="telaPrincipal.css">
 </head>
 <body>
-    <header class="Topo">
-        <h3>Mundo da Lua, Serviços Digitais</h3>
-
-        <nav class="cabecalho">
-            <button id="button">Menu</button>
-            <script>
-                document.querySelector("#button").addEventListener("click", function(){
-                    window.location.href="telaPrincipal.html"
-                })
-            </script>
-
-            <button id="button">Carrinho</button>
-                <script>
-                    document.querySelector("#button").addEventListener("click", function(){
-                        window.location.href=".html"
-                    })
-                </script>
-
-            <button id="button">Login</button>
-                <script>
-                    document.querySelector("#button").addEventListener("click", function(){
-                        window.location.href="login.html"
-                    })
-                </script>
-
-            <input name="q" placeholder="Pesquise aqui">
-
-        </nav>
-
+    <header class="titulo">
+        <div>
+            <h1>Mundo da Lua, Serviços digitais</h1>
+        </div>
+        <div class="botoes">   
+            <a href="/telaPrincipal.html">
+                <button>Menu</button>
+            </a>
+            <a href="/carrinho.html">
+                <button>Carrinho</button>
+            </a>
+        </div>
     </header>
+    <nav>
+        <h2>Produtos</h2>
 
-    <main class="escopo">
-        <h3>Categorias</h3>
-
-        <figure>
-            <img src="imagens/topo de bolo.webp" width="125" height="125">
-            <p>Topos para bolo</p>
-        </figure>
+    <div class="topos">
+        <h3>Topos para Bolo</h3>
+        <a href="/toposparabolos.html">
+            <img src="Imagens/topo de bolo.jpeg" alt="Topo de Bolo" height="150px" width="100px">
+        </a>
         
-        <figure>
-            <img src="imagens/topo de bolo.webp" width="125" height="125">
-            <p>Calendários personalizados</p>
-        </figure>        
+    </div>
 
-    </main>
+    <div class="caixinhas">
+        <h3>Caixinhas Personalizadas</h3>
+        <a href="/caixinhaspernalizadas.html">
+            <img src="Imagens/caixinha personalizada.jpeg" alt="Caixinhas Personalizadas" height="100px" width="100px">
+        </a>
+        
+    </div>
 
-    <footer class="ultimo">
-        <h3>Atendimento</h3>
-        <h4><a href="https://wa.me/5527988119998">contato</a></h4>
+    <div class="cartões">
+        <h3>Cartões Personalizados</h3>
+        <a href="/cartoespersonalizados.html">
+            <img src="Imagens/cartões personalizados.jpg" alt="Cartões Personalizados" height="100px" width="150px">
+        </a>
+    </div>
 
+    <div class="calendario">
+        <h3>Calendario Personalizado</h3>
+        <a href="calendariopersonalizado.html">
+            <img src="Imagens/calendario personalizado.webp" alt="Calendários Personalizados" height="100px" width="100px">
+        </a>
+    </div>
+    </nav>
+    <footer class="rodape">
+        <h4>Atendimento ao cliente</h4>
+        <a href="https://wa.me/5527992010821">
+            <p>Fale Conosco</p>
+        </a>
 
-        <h3>Sobre a empresa</h3>
-        <h4><a href="">Empresa</a></h4>
-    
-    
-    
+        <h4>Métodos de pagamento</h4>
+        <a>
+            <p></p>
+        </a>
+
+        <h4>Siga-nos</h4>
+        <a href="">
+            <p>Instagram</p>
+        </a>
     </footer>
+
 </body>
 </html>

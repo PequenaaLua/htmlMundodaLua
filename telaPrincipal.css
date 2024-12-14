@@ -2,19 +2,30 @@ body{
     background-color: #93C8EC;
 }
 
-h3{
+.titulo{
+    background-color: #BFFF00;
+    border-radius: 5px;
+    padding: 1em;
+
+}
+
+.rodape{
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+h1{
+    color: #320057;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px
+
+}
+
+h2{
     color: #320057;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px
-}
-
-main{
-    text-align: center;
-}
-
-h4{
-    color: #FFFF;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px
 }

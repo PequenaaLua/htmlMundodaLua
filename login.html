@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <h1>Login</h1>
+    <header>
+        <h1>Mundo da Lua, Serviços digitais</h1>
+    </header>
 
-        <fieldset>
-            <legend>Entrar</legend>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required><br><br>
+    <nav>
+        <h1>Login</h1>
 
-            <button id="Entrar">Entrar</button>
-            <script>
-                document.querySelector("#Entrar").addEventListener("click", function(){
-                    window.location.href="telaPrincipal.html"
-                })
-            </script>
+    <div class="login">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button id="Entrar">Entrar</button>
+        <script>
+            document.querySelector("#Entrar").addEventListener("click", function(){
+                window.location.href="telaPrincipal.html"
+            })
+        </script>
+    </div>
+
+    </nav>
+    
+    <footer>
         
-        </fieldset>
-
-
+    </footer>
+    
 </body>
 </html>
