@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento - Mundo da Lua</title>
+    <link rel="stylesheet" href="pagar.css">
+</head>
+<body>
+    <header class="topo">
+        <h1>Mundo da lua, Serviços Digitais</h1>
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="telaPrincipal.html">Início</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="escopo">
+        <section class="pagamento">
+            <h2>Pagamento</h2>
+            <form action="confirmacao.html" method="POST">
+
+                <fieldset class="dados-pessoais">
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="name" name="nome" placeholder="Digite seu nome completo">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+
+                </fieldset>
+
+                <fieldset class="metodo-pagamento">
+                    <label>
+                        <input type="radio" name="metodo" value="cartao" required>
+                        Cartão de Credito
+                    </label>
+                    <label>
+                        <input type="radio" name="metodo" value="pix">
+                        PIX
+                    </label>
+                    <label>
+                        <input type="radio" name="metodo" value="boleto">
+                        Boleto Bancário
+                    </label>
+                </fieldset>
+
+                <fieldset class="dados-cartao">
+                    <legend>Detalhes do Cartão</legend>
+                    <label for="numero-cartao">Número do Cartão:</label>
+                    <input type="text" id="numero-cartao" name="numero-cartao" placeholder="0000 0000 0000 0000" required>
+
+                    <label for="validade">Validade:</label>
+                    <input type="month" id="validade" name="validade" required>
+
+                    <label for="cvv">CVV:</label>
+                    <input type="number" id="CVV" name="cvv" placeholder="123" required>
+                </fieldset>
+
+                <button type="submit" class="botao-pagar">Finalizar Pagamento</button>
+
+            </form>
+        </section>
+    </main>
+    <footer class="ultimo">
+        <section class="atendimento">
+            <h3>Atendimento</h3>
+            <p><a href="https://wa.me/5527992010821" target="_blank" rel="noopener">Entre em Contato Conosco</a></p>
+        </section>
+        <section class="empresa">
+            <h3>Sobre a Empresa</h3>
+            <p><a href="sobre.html">Saiba Mais Sobre Nós</a></p>
+        </section>
+        <section class="redes-sociais">
+            <h3>Rede Social</h3>
+            <a href="https://instagram.com" target="_blank">instagram</a>
+        </section>
+        <p>&copy; 2024 Mundo da Lua. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

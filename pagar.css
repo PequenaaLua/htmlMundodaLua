@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header{
+    background-color: #320057;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+.cabecalho ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cabecalho ul li{
+    display: inline;
+}
+
+.cabecalho ul li a{
+    text-decoration: none;
+    color: #93C8EC;
+    font-size: 16px;
+}
+
+.pagamento{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagamento h2{
+    text-align: center;
+    color: #320057;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-size: 18px;
+    color: #320057;
+    padding: 0 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="month"],
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+input[type="radio"]{
+    margin-right: 8px;
+}
+
+.botao-pagar{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #320057;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.botao-pagar:hover{
+    background-color: #5e0075
+}
+
+@media(max-width: 768px){
+    .pagamento{
+        padding: 15px;
+    }
+
+    legend{
+        font-size: 16px
+    }
+
+    input{
+        font-size: 14px;
+    }
+}
