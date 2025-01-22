@@ -1,0 +1,57 @@
+.confirmacao{
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confirmacao h2{
+    color: #320057;
+    margin-bottom: 20px;
+}
+
+.confirmacao p{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #320057;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #5E0075;
+}
+
+header {
+    background-color: #320057;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+.cabecalho ul li{
+    display: inline;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+    color: #93C8EC;
+    font-size: 16px;
+}
