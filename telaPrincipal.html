@@ -12,110 +12,62 @@
         <div class="logo">
             <h1>Mundo da Lua, Serviços Digitais</h1>
         </div>
-
-        <nav class="cabecalho">
-            <ul class="menu-principal">
-                <li><a href="telaPrincipal.html">Início</a></li>
-                <li><a href="carrinho.html">Carrinho</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li class="menu-conta">
-                    <a href="#">Minha Conta</a>
-                    <ul class="dropdown-conta">
-                        <li><a href="perfil.html">Perfil</a></li>
-                        <li><a href="pedidos.html">Meus Pedidos</a></li>
-                        <li><a href="enderecos.html">Endereços</a></li>
-                        <li><a href="Sair.html">Sair</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <!--Barra de pesquisa-->
-            <input type="search" name="q"placeholder="Pesquise aqui" aria-label="Campo de Pesquisa">
-        </nav>
     </header>
 
-    <!--Menu com lateral alfabética-->
-    <aside class="menu-lateral">
-        <h2>Categorias</h2>
-        <ul>
-            <li class="dropdown">
-                <a href="#">A - D</a>
-                <ul class="submenu">
-                    <li><a href="">Balas Personalizadas</a></li>
-                    <li><a href="">Cartões Personalizados</a></li>
-                    <li><a href="">Cartões de Visita</a></li>
-                    <li><a href="">Cartão do SUS Personalizado</a></li>
-                    <li><a href="">Convites</a></li>
-                    <li><a href="">Calendários</a></li>
-                    <li><a href="">Cards com Balas</a></li>
-                    <li><a href="">Currículos</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#">E - I</a>
-                <ul class="submenu">
-                    <li><a href="">Etiquetas Escolares</a></li>
-                    <li><a href="">Edição e Impressão de Fotos</a></li>
-                    <li><a href="">Fotos 3x4</a></li>
-                    <li><a href="">Impressões</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#">J - N</a>
-                <ul class="submenu">
-                    <li><a href="">Kit Festa</a></li>
-                    <li><a href="">Kit Mini (Etiquetas)</a></li>
-                    <li><a href="">Kit na Medida (Etiquetas)</a></li>
-                    <li><a href="">Kit Só o Básico (Etiquetas)</a></li>
-                
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#">O - S</a>
-                <ul class="submenu">
-                    <li><a href="">Polaroids</a></li>
-                    <li><a href="">Sacolinhas Personalizadas</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="#">T - X</a>
-                <ul class="submenu">
-                    <li><a href="">Topos para Bolos</a></li>
-                    <li><a href="">Xerox</a></li>
-
-                </ul>
-            </li>
-        </ul>
-    </aside>
+        <!--Menu principal -->
+        <nav class="menu">
+            <div class="menu-opcoes">
+                <div>
+                    <a href="telaPrincipal.html">Início</a>
+                </div>
+                <div>
+                    <a href="carrinho.html">Carrinho</a>
+                </div>
+                <div>
+                    <a href="login.html">Login</a>
+                </div>
+                <div class="opcao dropdown">
+                    <a href="#">Minha Conta</a>
+                    <div class="submenu">
+                        <a href="perfil.html">Perfil</a>
+                        <a href="pedidos.html">Meus Pedidos</a>
+                        <a href="enderecos.html">Endereços</a>
+                        <a href="Sair.html">Sair</a>
+                    </div>
+                </div>
+                    <div class="opcao dropdown">
+                        <a href="#">Categorias</a>
+                        <div class="submenu">
+                            <a href="">Balas Personalizadas</a>
+                            <a href="">Cartões Personalizados</a>
+                            <a href="">Cartões de Visita</a>
+                            <a href="">Cartão do SUS Personalizado</a>
+                            <a href="">Convites</a>
+                            <a href="">Calendários</a>
+                            <a href="">Cards com Balas</a>
+                            <a href="">Currículos</a>
+                            <a href="">Etiquetas Escolares</a>
+                            <a href="">Fotos 3x4</a>
+                            <a href="">Kit Festa</a>
+                            <a href="">Kit Mini (Etiquetas)</a>
+                            <a href="">Kit na Medida (Etiquetas)</a>
+                            <a href="">Kit Só o Básico (Etiquetas)</a>
+                            <a href="">Marcadores de Página Magnético</a>
+                            <a href="">Polaroids</a>
+                            <a href="">Topos para Bolos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="barra-pesquisa">
+                <input type="search" name="q"placeholder="Pesquise aqui" aria-label="Campo de Pesquisa">
+            </div>
+        </nav>
 
     <!--Banner Promocional-->
     <section class="banner">
         <div class="banner-slide">
             <p><a href="etiquetasEscolares.html">Garanta suas etiquetas escolares</a></p>
-        </div>
-    </section>
-
-    <!--Destaques-->
-    <section id="destaques" class="destaques">
-        <h2>Destques</h2>
-        <div class="grid-destaques">
-            <div class="produto">
-                <img src="" alt="Cartões Personalizados">
-                <p>Cartões Personalizados</p>
-                <p>A partir de R$ 2,50</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <img src="" alt="Convites">
-                <p>Convites</p>
-                <p>A partir de R$ 1,80</p>
-                <button class="botao-comprar">Comprar</button>
-            </div>
-            <div class="produto">
-                <img src="" alt="Etiquetas Escolares">
-                <p>Kits de Etiquetas</p>
-                <p>A partir de R$ 35,00</p>
-                <button class="bota-comprar">Comprar</button>
-            </div>
         </div>
     </section>
 
@@ -125,43 +77,48 @@
         <h2>Produtos</h2>
         <div id="balas-personalizadas" class="categoria">
             <h3>Balas Personalizadas</h3>
-            <div class="grid-produtos">
+            <div class="carrossel-produtos">
                 <div class="produto">
                     <img src="" alt="Balas Personalizadas">
                     <p>20 unidades: R$ 38,00</p>
                     <p>50 unidades: R$ 32,00</p>
                     <p>100 unidades: R$ 55,00</p>
+                    <button class="botao-comprar">Comprar</button>
                 </div>
                 <div class="produto">
                     <img src="" alt="Balas com lapela">
                     <p>Balas com lapela: R$ 4,90 (cada)</p>
                     <p>Pedido mín de 20 unidades</p>
+                    <button class="botao-comprar">Comprar</button>
                 </div>
             </div>
         </div>
 
         <div id="cartoes-personalizados" class="categoria">
             <h3>Cartões Personalizados</h3>
-            <div class="grid-produtos">
+            <div class="carrossel-produtos">
                 <div class="produto">
                     <img src="" alt="Cartões Personalizados">
                     <p> A partir de R$ 2,90 até R$ 8,00</p>
+                    <button class="botao-comprar">Comprar</button>
                 </div>
             </div>
         </div>
 
         <div id="convites" class="categoria">
             <h3>Convites Personalizados</h3>
-            <div class="grid-produtos">
+            <div class="carrossel-produtos">
                 <div class="produto">
                     <img src="" alt="Convites Personalizados">
                     <p> 10x07 Papel Offset 180g: R$ 1,80</p>
                     <p> 10x07 Papel Fotográfico: R$ 2,00</p>
+                    <button class="botao-comprar">Comprar</button>
                 </div>
                 <div class="produto">
                     <img src="" alt="Convites Personalizados">
                     <p> 10x14 Papel Offset 180g: R$ 2,80</p>
                     <p> 10x14 Papel Fotográfico: R$ 3,50</p>
+                    <button class="botao-comprar">Comprar</button>
                 </div>
             </div>
         </div>
@@ -188,7 +145,7 @@
                 <img src="" alt="Convites Papel Off-Set 10x07">
                 <p>Convite 10x07 (Papel Off-Set 180g)</p>
                 <p>R$ 1,80 (mín. 20un)</p>
-                <button class="bota-comprar">Comprar</button>
+                <button class="botao-comprar">Comprar</button>
             </div>
         </div>
     </section>
@@ -200,7 +157,7 @@
                 <img src="" alt="Convites Papel Off-Set 10x14">
                 <p>Convite 10x14 (Papel Off-Set 180g)</p>
                 <p>R$ 2,80 (mín. 20un)</p>
-                <button class="bota-comprar">Comprar</button>
+                <button class="botao-comprar">Comprar</button>
             </div>
         </div>
     </section>
